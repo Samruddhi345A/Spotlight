@@ -1,0 +1,72 @@
+
+ .blog-list .item .title {
+    font-size: 1.275rem
+}
+
+.blog-list .item .title a {
+    color: #292929
+}
+
+.blog-list .item .title a:hover {
+    color: #292929
+}
+
+.blog-list .item .post-thumb {
+    max-width: 100px;
+    border-radius: 2px;
+    
+    
+}
+
+.blog-list .item .intro {
+    font-size: 0.875rem
+}
+
+.blog-list .item .more-link {
+    font-size: 0.8125rem
+}
+
+.meta {
+    color: #8f8f8f;
+    font-size: 0.8125rem
+}
+
+.meta span {
+    display: inline-block
+}
+
+.meta span a {
+    color: #8f8f8f
+}
+
+.meta span a:hover {
+    color: #4f4f4f
+}
+
+.meta span:after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #8f8f8f;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -3px
+}
+
+.meta span:last-child:after {
+    display: none
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body {
+    flex: 1
+}
+
+

@@ -1,0 +1,58 @@
+{
+  "name": "textutils",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.2.0",
+    "@react-spring/web": "^9.7.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^4.4.1",
+    "concurrently": "^8.2.2",
+    "framer-motion": "^11.0.8",
+    "infinite-scroll": "^4.0.1",
+    "jquery": "^3.7.1",
+    "particles-bg": "^2.5.5",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
+    "react-avatar-edit": "^1.2.0",
+    "react-awesome-reveal": "^4.2.8",
+    "react-cookie": "^7.1.0",
+    "react-dom": "^18.2.0",
+    "react-editext": "^6.0.0",
+    "react-helmet-async": "^2.0.4",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "both": "concurrently \"npm run start\" \"cd ../backend && nodemon ./index.js\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.22.0"
+  }
+}

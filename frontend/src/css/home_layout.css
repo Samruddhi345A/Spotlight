@@ -1,0 +1,85 @@
+
+.header1 {
+   position: relative;
+   height: 400px;
+   min-height: 400px;
+   width: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+/* vertically center banner section */
+.header1:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+.header1 .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+.header1 .banner-text { width: 100%; }
+.header1 .banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+}
+.header1 .banner-text h3 {
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   color: #ffffff;
+   margin: 0 auto;
+   width: 70%;
+}
+.header1 .banner-text h3 span,
+.header1 .banner-text h3 a {
+   color: #fff;
+}
+.header1 .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #000000;
+   border-color: rgba(5, 4, 4, 0.1);
+}
+
+/* .header1 social links */
+.header1 .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+}
+.header1 .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+.header1 .social li a { color: #fff; }
+.header1 .social li a:hover { color: #0762f9; }
+
+/* scrolldown link */
+.header1 .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+.header1 .scrolldown a:hover { color: #0762f9; }

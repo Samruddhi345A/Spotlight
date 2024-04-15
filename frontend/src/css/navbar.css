@@ -1,0 +1,28 @@
+.basicNav{
+    font-family: math;
+    font-size: large;
+    font-weight: normal
+}
+
+.logoutstyle{
+        margin-top : 10px;
+        font-size: medium;
+        line-height: 10px;
+        padding: 5px;
+        color: #f8f2ff;
+        background-color: #424141;
+        border: 1px solid whitesmoke;
+}
+
+.loginstyle{
+    list-style:none;
+    list-style-position: outside;
+    margin-top : 10px;
+    margin-left: 15px;
+    font-size: medium;
+    line-height: 10px;
+    padding: 5px;
+    color: #f8f2ff;
+    background-color: #424141;
+    border: 1px solid whitesmoke;
+}

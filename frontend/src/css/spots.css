@@ -1,0 +1,57 @@
+.spots-background {
+  overflow: auto;
+  position: relative;
+  
+  }
+
+  .spots-background::before{
+    content: "";
+    position: fixed;
+    left: -5%;
+    right: 0;
+    z-index: -1;
+    top:-5%;
+    display: block;
+    background-image: url('../images/spot-background2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(10px);}
+
+  .spot-item{
+    color:aliceblue;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(84, 235, 255, 0.39);
+    padding: 40px;
+    margin:10px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 55px rgba(78, 0, 134, 0.289);
+  }
+  .spot-title{
+    color:rgb(255, 3, 154);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .spot-image{
+    
+           border: 5px solid transparent; 
+           border-image: linear-gradient(to right, rgb(255, 0, 153), rgb(0, 255, 187)); 
+           border-image-slice: 1; 
+         
+  }
+ 
+.spot-link{
+  color:rgb(198, 251, 255);
+
+}
+
