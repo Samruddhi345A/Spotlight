@@ -9,7 +9,6 @@ function InstitutesTemplates() {
                     e.preventDefault();
                     navigate("/ITemp1");
                 }} className="btn btn-primary btn-lg mx-2">Template1</button>
-                <button type="button" className="btn btn-primary btn-lg mx-2">Template2</button>
             </div>
     </div>
   )

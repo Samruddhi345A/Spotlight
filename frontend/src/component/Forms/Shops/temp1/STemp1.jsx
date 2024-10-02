@@ -101,7 +101,6 @@ const placeholderImage =
         formData.append(`contact.${key}`, JSON.stringify(value));
       }
     });
-    console.log(nbuzs)
    
     addBuz(formData);
     if(window.confirm("Your Website is posted")){

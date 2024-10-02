@@ -127,17 +127,19 @@ const Events = () => {
         </h3>
 
         {eves.map((eve, index) => (
+     
           <Slide
             key={eve._id}
             slide={{
               index,
               src: `data:image/jpeg;base64,${eve.imageData}`,
               headline: eve.orgName,
-              button: 'View Event',
+             
             }}
             current={current}
             handleSlideClick={handleSlideClick}
           />
+       
         ))}
       </ul>
 
